@@ -6,6 +6,8 @@ const multer  = require('multer');
 const upload = multer({ dest: 'uploads/' });
 const {mergerPdfs} = require('./pdf')
 
+console.log("pdfmx")
+
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, "/templates/index.html"));
 })
