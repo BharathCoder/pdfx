@@ -4,7 +4,7 @@
   "description": "this is a production ready blog by bharathcoder",
   "main": "index.js",
   "scripts": {
-    "build": "nodemon index.js"
+    "build": "node index.js"
   },
   "author": "bharathcoder",
   "license": "ISC",
