@@ -1,0 +1,11 @@
+<div class="container d-flex flex-row align-items-center justify-content-center p-4">
+    {{#each blog}}
+    <div class="card mx-3 my-3" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">{{this.title}}</h5>
+            <p class="card-text">{{this.shortContent}}</p>
+            <a href="/post/{{this.slug}}" class="btn btn-primary">Read the full blog</a>
+        </div>
+    </div>
+    {{/each}}
+</div>
